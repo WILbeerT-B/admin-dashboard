@@ -8,63 +8,74 @@
 </head>
 
 <body>
-  <div class="container">
+  <div id="body-container">
         
-    <!-- 1. sidebar section -->
-    <div class="sidebar">
-        <div class="logo">Sidebar Logo</div>
-        <div class="sidebar-nav">
+    <!-- 1. Sidebar -->
+    <div id="sidebar">
+      
+        <!-- Logo section -->
+        <span id="logo">
+            <img src="" alt="logo">
+            <a href="#">Dashboard</a>
+        </span>
+
+        <!-- Main links -->
+        <div class="main-links">
             <ul>
                 <li>
-                    <span class="image-container">
+                    <span class="link">
                         <img src="" alt="">
                         <a href="#">Home</a>
                     </span>
                 </li>
                 <li>
-                    <span class="image-container">
+                    <span class="link">
                         <img src="" alt="">
                         <a href="#">Profile</a>
                     </span>
                 </li>
                 <li>
-                    <span class="image-container">
+                    <span class="link">
                         <img src="" alt="">
                         <a href="#">Messages</a>
                     </span>
                 </li>
                 <li>
-                    <span class="image-container">
+                    <span class="link">
                         <img src="" alt="">
                         <a href="#">History</a>
                     </span>
                 </li>
                 <li>
-                    <span class="image-container">
+                    <span class="link">
                         <img src="" alt="">
                         <a href="#">Tasks</a>
                     </span>
                 </li>
                 <li>
-                    <span class="image-container">
+                    <span class="link">
                         <img src="" alt="">
                         <a href="#">Communities</a>
                     </span>
                 </li>
+            </ul>
+        </div>
+        <div class="help-links">
+            <ul>            
                 <li>
-                    <span class="image-container">
+                    <span class="link">
                         <img src="" alt="">
                         <a href="#">Settings</a>
                     </span>
                 </li>
                 <li>
-                    <span class="image-container">
+                    <span class="link">
                         <img src="" alt="">
                         <a href="#">Support</a>
                     </span>
                 </li>
                 <li>
-                    <span class="image-container">
+                    <span class="link">
                         <img src="" alt="">
                         <a href="#">Privacy</a>
                     </span>
@@ -74,15 +85,15 @@
     </div>
 
     <!-- 2. header section -->
-    <div class="header">
+    <div id="header">
 
         <div class="search-part">
 
             <div id="search-logo">icon-holder</div>
             <div id="search-bar">
-                <form action="./search/">
+                <form action="#">
                     <label for="search"></label>
-                    <input type="search" id="search" name="search" size="50">
+                    <input type="search" id="search" name="search">
                 </form>
             </div>
             
@@ -115,48 +126,46 @@
     </div>
 
     <!-- 3. main section -->
-    <div class="main-content">
+    <div id="main-content">
 
-        <div class="your-projects">
-            <div class="project">
-                <p class="title">Super Cool Project</p>
+        <div class="projects-section">
+            <h2>Your Projects</h2>
+            <div class="card">
+                <h3 class="title">Super Cool Project</h3>
                 <p>Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh erat, id facilisis felis accumsan nec.</p>
             </div>
-            <div class="project">
-                <p class="title">Less Cool Project</p>
+            <div class="card">
+                <h3 class="title">Less Cool Project</h3>
                 <p>Nullam condimentum ipsum ut lectus vehicula consectetur. Quisque sed dolor tincidunt, consectetur sapien et, facilisis dolor. Duis sem purus, dignissim ut sapien in, varius pellentesque lacus.</p>
             </div>
-            <div class="project">
-                <p class="title">Imposibble App</p>
+            <div class="card">
+                <h3 class="title">Imposibble App</h3>
                 <p>In hac habitasse platea dictumst. Vivamus dictum rutrum arcu, a placerat velit sagittis id.</p>
             </div>
-            <div class="project">
-                <p class="title">Easy Peasy App</p>
+            <div class="card">
+                <h3 class="title">Easy Peasy App</h3>
                 <p>Etiam cursus eros ac efficitur fringilla. Vestibulum dignissim urna eget accumsan aliquam. Curabitur dignissim nisi in tortor commodo, ac bibendum magna tincidunt.</p>
             </div>
-            <div class="project">
-                <p class="title">Ad Blocker</p>
+            <div class="card">
+                <h3 class="title">Ad Blocker</h3>
                 <p>Quisque eget rutrum nisl. Nam augue justo, cursus vitae metus vel, pharetra hendrerit felis. Aliquam sed malesuada eros.</p>
             </div>
-            <div class="project">
-                <p class="title">Money Maker</p>
+            <div class="card">
+                <h3 class="title">Money Maker</h3>
                 <p>Praesent convallis, libero quis congue elementum, nunc ante faucibus sapien, ac scelerisque tortor purus sit amet ex. Pellentesque mollis nec sem vel aliquam.</p>
             </div>
-
-            
-            
         </div>
     
-        <div class="announcements">
-            <div class="announce">
+        <div id="announcements-section">
+            <div class="announcement">
                 <p class="subject">Site Maintenance</p>
                 <p>Vestibulum condimentum tellus lacus, in accumsan elit maximus ac. Donec hendrerit sodales congue...</p>
             </div>
-            <div class="announce">
+            <div class="announcement">
                 <p class="subject">Community Share Day</p>
                 <p>Nam vel lectus tincidunt, rutrum nulla eu, ornare libero. Aliquam dictum accumsan porttitor...</p>
             </div>
-            <div class="announce">
+            <div class="announcement">
                 <p class="subject">Updated Privacy Policy</p>
                 <p>Phasellus efficitur nisi eget elit consectetur, eget condimentum ante auctor. Cras fringilla sagittis sem in mattis...</p>
             </div>
