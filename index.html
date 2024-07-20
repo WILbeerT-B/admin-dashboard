@@ -11,170 +11,224 @@
   <div id="body-container">
         
     <!-- 1. Sidebar -->
-    <div id="sidebar">
+    <div class="sidebar">
       
         <!-- Logo section -->
-        <span id="logo">
-            <img src="" alt="logo">
-            <a href="#">Dashboard</a>
-        </span>
+        <div class="dashboard">
+            <img class="img" src="" alt="logo">
+            <a href="#"><h1>Dashboard</a></h1>
+        </div>
 
         <!-- Main links -->
         <div class="main-links">
-            <ul>
-                <li>
-                    <span class="link">
-                        <img src="" alt="">
-                        <a href="#">Home</a>
-                    </span>
-                </li>
-                <li>
-                    <span class="link">
-                        <img src="" alt="">
-                        <a href="#">Profile</a>
-                    </span>
-                </li>
-                <li>
-                    <span class="link">
-                        <img src="" alt="">
-                        <a href="#">Messages</a>
-                    </span>
-                </li>
-                <li>
-                    <span class="link">
-                        <img src="" alt="">
-                        <a href="#">History</a>
-                    </span>
-                </li>
-                <li>
-                    <span class="link">
-                        <img src="" alt="">
-                        <a href="#">Tasks</a>
-                    </span>
-                </li>
-                <li>
-                    <span class="link">
-                        <img src="" alt="">
-                        <a href="#">Communities</a>
-                    </span>
-                </li>
-            </ul>
-        </div>
+            <div class="link">
+                <img src="" alt="home">
+                <a href="#">Home</a>
+            </div>
+            <div class="link">
+                <img src="" alt="profile">
+                <a href="#">Profile</a>
+            </div>
+            <div class="link">
+                <img src="" alt="messages">
+                <a href="#">Messages</a>
+            </div>
+            <div class="link">
+                <img src="" alt="history">
+                <a href="#">History</a>
+            </div>
+            <div class="link">
+                <img src="" alt="tasks">
+                <a href="#">Tasks</a>
+            </div>
+            <div class="link">
+                <img src="" alt="community">
+                <a href="#">Community</a>
+            </div>
+        </div>  
+                    
         <div class="help-links">
-            <ul>            
-                <li>
-                    <span class="link">
-                        <img src="" alt="">
-                        <a href="#">Settings</a>
-                    </span>
-                </li>
-                <li>
-                    <span class="link">
-                        <img src="" alt="">
-                        <a href="#">Support</a>
-                    </span>
-                </li>
-                <li>
-                    <span class="link">
-                        <img src="" alt="">
-                        <a href="#">Privacy</a>
-                    </span>
-                </li>
-            </ul>
+            <div class="link">
+                <img src="" alt="">
+                <a href="#">Settings</a>
+            </div>
+            <div class="link">
+                <img src="" alt="">
+                <a href="#">Support</a>
+            </div>
+            <div class="link">
+                <img src="" alt="">
+                <a href="#">Privacy</a>
+            </div>
         </div>
     </div>
 
     <!-- 2. header section -->
-    <div id="header">
-
-        <div class="search-part">
-
-            <div id="search-logo">icon-holder</div>
-            <div id="search-bar">
-                <form action="#">
-                    <label for="search"></label>
-                    <input type="search" id="search" name="search">
-                </form>
-            </div>
-            
-            <div id="user-info-1">
-                <ul>
-                    <li>Alarm logo</li>
-                    <li>Morgan logo</li>
-                    <li>Morgan Oakley</li>
-                </ul>
-            </div>
-
-        </div>
-
-        <div class="button-part">
-
-            <div id="user-info-2">
-            
-                <div id="user-logo-2">Morgan logo</div>
-                <div id="morgan-text">Hi there, <br/>Morgan text</div>
+    <div class="header">
+        <div class="header-container">
+            <div class="search-part">
+                <div id="input-bar">
+                    
+                    <form action="#">
+                        <label for="search"></label>
+                        <input type="search" name="search" placeholder="Search for...">
+                    </form>
+                </div>
+                <div id="search-icon">
+                    <img src="" alt="search-icon">
+                </div>
                 
+                
+                
+                <div class="user-profile-1">
+                    <div><div>
+                        <a href="#">
+                            <img src="" alt="notif">
+                        </a>
+                    </div>
+                        <a href="#">
+                            <img id="profile-sm-img" src="" alt="prof-sm">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <h3>wilbert</h3>
+                        </a>
+                    </div>
+
+                </div>
             </div>
-            <div id="buttons">
-                <button type="button" id="btn-new">New</button>
-                <button type="button" id="btn-upload">Upload</button>
-                <button type="button" id="btn-share">Share</button>
+    
+            <div class="button-part">
+    
+                <div id="profile-big-img">
+                    <img id="" src="" alt="profile-big">
+                </div>
+                <div class="profile-big-text">
+                    <p>Hi there,</p>
+                    <h2>WILbeerT_B (@wb)</h2>
+                </div>
+                <div id="buttons">
+                    <button type="button" class="btn">New</button>
+                    <button type="button" class="btn">Upload</button>
+                    <button type="button" class="btn">Share</button>
+                </div>
             </div>
-        
-        </div>     
+        </div>
+             
 
     </div>
 
     <!-- 3. main section -->
-    <div id="main-content">
-
+    <div class="main-content">
+        
         <div class="projects-section">
-            <h2>Your Projects</h2>
-            <div class="card">
-                <h3 class="title">Super Cool Project</h3>
-                <p>Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh erat, id facilisis felis accumsan nec.</p>
+            <div class="project-title">
+                <h2>Your Projects</h2>
             </div>
-            <div class="card">
-                <h3 class="title">Less Cool Project</h3>
-                <p>Nullam condimentum ipsum ut lectus vehicula consectetur. Quisque sed dolor tincidunt, consectetur sapien et, facilisis dolor. Duis sem purus, dignissim ut sapien in, varius pellentesque lacus.</p>
-            </div>
-            <div class="card">
-                <h3 class="title">Imposibble App</h3>
-                <p>In hac habitasse platea dictumst. Vivamus dictum rutrum arcu, a placerat velit sagittis id.</p>
-            </div>
-            <div class="card">
-                <h3 class="title">Easy Peasy App</h3>
-                <p>Etiam cursus eros ac efficitur fringilla. Vestibulum dignissim urna eget accumsan aliquam. Curabitur dignissim nisi in tortor commodo, ac bibendum magna tincidunt.</p>
-            </div>
-            <div class="card">
-                <h3 class="title">Ad Blocker</h3>
-                <p>Quisque eget rutrum nisl. Nam augue justo, cursus vitae metus vel, pharetra hendrerit felis. Aliquam sed malesuada eros.</p>
-            </div>
-            <div class="card">
-                <h3 class="title">Money Maker</h3>
-                <p>Praesent convallis, libero quis congue elementum, nunc ante faucibus sapien, ac scelerisque tortor purus sit amet ex. Pellentesque mollis nec sem vel aliquam.</p>
+            <div class="projects-cards">
+                
+                <div class="card">
+                    <div class="card-text">
+                        <h3 class="title">Super Cool Project</h3>
+                        <p>Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh erat, id facilisis felis accumsan nec.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-text">
+                        <h3 class="title">Less Cool Project</h3>
+                        <p>Nullam condimentum ipsum ut lectus vehicula consectetur. Quisque sed dolor tincidunt, consectetur sapien et, facilisis dolor. Duis sem purus, dignissim ut sapien in, varius pellentesque lacus.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-text">
+                        <h3 class="title">Imposibble App</h3>
+                        <p>In hac habitasse platea dictumst. Vivamus dictum rutrum arcu, a placerat velit sagittis id.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-text">
+                        <h3 class="title">Easy Peasy App</h3>
+                        <p>Etiam cursus eros ac efficitur fringilla. Vestibulum dignissim urna eget accumsan aliquam. Curabitur dignissim nisi in tortor commodo, ac bibendum magna tincidunt.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-text">
+                        <h3 class="title">Ad Blocker</h3>
+                        <p>Quisque eget rutrum nisl. Nam augue justo, cursus vitae metus vel, pharetra hendrerit felis. Aliquam sed malesuada eros.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-text">
+                        <h3 class="title">Money Maker</h3>
+                        <p>Praesent convallis, libero quis congue elementum, nunc ante faucibus sapien, ac scelerisque tortor purus sit amet ex. Pellentesque mollis nec sem vel aliquam.</p>
+                    </div>
+                </div>
             </div>
         </div>
+        
     
         <div id="announcements-section">
-            <div class="announcement">
-                <p class="subject">Site Maintenance</p>
-                <p>Vestibulum condimentum tellus lacus, in accumsan elit maximus ac. Donec hendrerit sodales congue...</p>
+            <div class="project-title">
+                <h2>Announcements</h2>
             </div>
-            <div class="announcement">
-                <p class="subject">Community Share Day</p>
-                <p>Nam vel lectus tincidunt, rutrum nulla eu, ornare libero. Aliquam dictum accumsan porttitor...</p>
-            </div>
-            <div class="announcement">
-                <p class="subject">Updated Privacy Policy</p>
-                <p>Phasellus efficitur nisi eget elit consectetur, eget condimentum ante auctor. Cras fringilla sagittis sem in mattis...</p>
+            <div class="annoumncements">
+                <div class="announcement">
+                    <h4 class="subject">Site Maintenance</h4>
+                    <p>Vestibulum condimentum tellus lacus, in accumsan elit maximus ac. Donec hendrerit sodales congue...</p>
+                </div>
+                <div class="announcement">
+                    <h4 class="subject">Community Share Day</h4>
+                    <p>Nam vel lectus tincidunt, rutrum nulla eu, ornare libero. Aliquam dictum accumsan porttitor...</p>
+                </div>
+                <div class="announcement">
+                    <h4 class="subject">Updated Privacy Policy</h4>
+                    <p>Phasellus efficitur nisi eget elit consectetur, eget condimentum ante auctor. Cras fringilla sagittis sem in mattis...</p>
+                </div>
             </div>
         </div>
-        <div class="trending">
-            <div class="trend">@tegan</div>
-            <div class="trend">@morgan</div>
-            <div class="trend">@kendall</div>
-            <div class="trend">@alex</div>
+        <div class="trending-section">
+            <div class="project-title">
+                <h2>Trending</h2>
+            </div>
+            <div class="trending">
+                <div class="entry">
+                    <div class="trending-img">
+                        <img src="#" alt="img1">
+                    </div>
+                    <div class="profile-big-text">
+                        <a href="#">@tegan</a>
+                        <p>World Peace Builder</p>
+                    </div>
+                </div>
+                <div class="entry">
+                    <div class="trending-img">
+                        <img src="#" alt="img2">
+                    </div>
+                    <div class="profile-big-text">
+                        <a href="#">@morgan</a>
+                        <p>Super Cool Project</p>
+                    </div>
+                </div>
+                <div class="entry">
+                    <div class="trending-img">
+                        <img src="#" alt="img3">
+                    </div>
+                    <div class="profile-big-text">
+                        <a href="#">@kendall</a>
+                        <p>Life Changing App</p>
+                    </div>
+                </div>
+                <div class="entry">
+                    <div class="trending-img">
+                        <img src="#" alt="img1">
+                    </div>
+                    <div class="profile-big-text">
+                        <a href="#">@alex</a>
+                        <p>Money Maker</p>
+                    </div>
+                </div>
+            </div>
         </div>
         
     </div>
