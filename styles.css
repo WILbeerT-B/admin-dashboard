@@ -126,6 +126,40 @@ body {
 .projects-section {
     grid-row: 1 / 3;
     grid-column: 1 / 3;
+    margin: 10px;
+}
+
+.projects-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    margin-top: 10px;
+    
+}
+
+.projects-cards .card {
+    background-color: white;
+    height: 250px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 1fr;
+    padding: 10px;
+    
+}
+
+.card .card-text {
+    grid-column: 1 / 3;
+}
+
+.card-text p {
+
+}
+
+.card .card-actions {
+    grid-column: 2 / 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
 }
 
 .card img {
@@ -137,15 +171,38 @@ body {
 /* Announcements */
 .announcements-section {
     grid-row: 1 / 2;
-    
+    margin: 10px;
+    display: grid;
+    grid-template-rows: 27px 1fr;
+}
+
+.announcements {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.announcement {
+    padding: 5px;
 }
 
 
 
 /* Trending */
 .trending-section {
+    /* background-color: white; */
     grid-column: 3 / 4;
     grid-row: 2 / 3;
+    margin: 10px;
+    display: grid;
+    grid-template-rows: 35px 1fr;
+}
+
+.trending {
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px;
+
 }
 
 .entry img {
